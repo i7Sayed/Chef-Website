@@ -226,3 +226,42 @@ header {
 .btn:hover {
   background: #fc5552;
 }
+
+.heading {
+  text-align: center;
+}
+
+.heading p {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+.heading h2 {
+  font-size: var(--h2-font);
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.box img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.box h2 {
+  font-size: 1.2rem;
+  margin: 1.7rem 0 1rem;
+}
