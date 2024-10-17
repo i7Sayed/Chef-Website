@@ -347,3 +347,8 @@ height: 200px;
 .contact-form form .contact-button:hover {
   background: #fc5552;
 }
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+}
