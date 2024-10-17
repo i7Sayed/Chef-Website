@@ -144,3 +144,32 @@ header {
     background: #fff4f3;
     padding: 18px 10%;
 }
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 2rem;
+}
+
+#menu-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
