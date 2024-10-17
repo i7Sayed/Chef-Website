@@ -127,6 +127,10 @@
     --h2-font:2rem;
 }
 
+section {
+  padding: 50px 10%;
+}
+
 body {
     color: var(--text-color);
     background: var(--bg-color);
@@ -172,4 +176,49 @@ header {
   font-size: 2rem;
   cursor: pointer;
   display: none;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  background: #fff4f3;
+  gap: 1.5rem;
+}
+
+.home-img img {
+  width: 90%;
+}
+
+.home-text h3 {
+  color: var(--main-color);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px;
+  width: 160px;
+  border-radius: 2rem;
+  background: #feeceb;
+}
+
+.home-text h1 {
+  font-size: var(--big-font);
+}
+
+.home-text span {
+  color: var(--main-color);
+}
+
+.home-text p {
+  max-width: 88%;
+  margin: 1rem 0 1.1rem;
+}
+
+.btn {
+  background: var(--main-color);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  color:#fff;
 }
