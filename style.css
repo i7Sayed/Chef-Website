@@ -353,6 +353,16 @@ height: 200px;
   text-align: center;
 }
 
+.copyright a:link {
+  color: var(--main-color);
+}
+
+.copyright a:visited {
+  color: var(--main-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 /* Making Responsive */
 @media (max-width: 991px) {
   header {
